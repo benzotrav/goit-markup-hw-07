@@ -2,7 +2,7 @@
   padding-bottom: 94px;
   background-color: #ffffff;
 }
-.photo-h2 {
+.photo__h2 {
   font-weight: 700;
   line-height: 1.17;
   text-align: center;
@@ -15,7 +15,7 @@
 .photo-list {
   display: flex;
 }
-.photo-li {
+.photo-list__li {
   padding-right: 30px;
 }
 .photo-h3-div {
@@ -28,7 +28,7 @@
   position: absolute;
   top: 1435px;
 }
-.photo-h3 {
+.photo-h3-div__h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
