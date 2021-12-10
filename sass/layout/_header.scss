@@ -4,18 +4,19 @@
   border-bottom: 1px solid #ececec;
   background-color: #ffffff;
 }
-.header-nav {
+.header__nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.header-div {
-  display: flex;
-  align-items: center;
-}
+
 .header-list {
   display: flex;
   margin-left: 93px;
+}
+.header-li {
+  margin-right: 50px;
+  cursor: pointer;
 }
 .header.connect {
   display: flex;
@@ -29,10 +30,6 @@
   margin-right: 10px;
 }
 
-.header-li {
-  margin-right: 50px;
-  cursor: pointer;
-}
 .header-li2 {
   margin-right: 50px;
   cursor: pointer;
