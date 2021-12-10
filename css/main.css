@@ -498,7 +498,7 @@ body {
   justify-content: center;
 }
 
-.description-h3 {
+.description__h3 {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -508,7 +508,7 @@ body {
   font-size: 14px;
 }
 
-.description-p {
+.description__p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
