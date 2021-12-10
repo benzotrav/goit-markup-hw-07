@@ -3,8 +3,11 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.desctiption-div {
+.description-list {
   display: flex;
+}
+.desctiption-list__li {
+  padding-right: 30px;
 }
 .desctiption-div-icon {
   background-color: #f5f4fa;
@@ -16,9 +19,6 @@
   align-items: center;
   justify-content: center;
 }
-.description-list {
-  display: flex;
-}
 .description-h3 {
   font-weight: 700;
   line-height: 1.14;
@@ -27,9 +27,6 @@
   color: #212121;
   font-style: normal;
   font-size: 14px;
-}
-.desctiption-li {
-  padding-right: 30px;
 }
 .description-p {
   line-height: 1.71;
