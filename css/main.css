@@ -106,7 +106,7 @@ body {
   margin-left: 93px;
 }
 
-.header-li {
+.header-list__li {
   margin-right: 50px;
   cursor: pointer;
 }
