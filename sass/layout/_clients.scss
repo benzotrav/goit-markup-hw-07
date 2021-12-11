@@ -3,10 +3,22 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+.clients__h2 {
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 .clients-list {
   display: flex;
   justify-content: center;
+}
+.clients-list__li + .clients-list__li {
+  margin-left: 30px;
 }
 .clients-icon-link {
   width: 170px;
@@ -26,20 +38,7 @@
   border-color: #2196f3;
   color: #2196f3;
 }
-.clients-li + .clients-li {
-  margin-left: 30px;
-}
-.clients-icon {
-  fill: currentColor;
-}
 
-.clients-h2 {
-  margin-bottom: 50px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+.clients-icon-link__icon {
+  fill: currentColor;
 }
