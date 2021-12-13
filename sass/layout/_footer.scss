@@ -74,12 +74,13 @@
   color: #ffffff;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+    background-color: #2196f3;
+    color: #ffffff;
+  }
 }
-.footer-icon-list__link:focus,
-.footer-icon-list__link:hover {
-  background-color: #2196f3;
-  color: #ffffff;
-}
+
 .footer-input-div {
   width: 570px;
   height: 86px;
@@ -109,6 +110,9 @@
   padding-left: 16px;
   margin-right: 12px;
   color: #f5f4fa;
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 .footer-form-input__btn {
   width: 200px;
@@ -128,13 +132,10 @@
   border: 0px;
   padding-left: 29px;
   padding-right: 28px;
-}
-.footer-form-input__btn:hover,
-.footer-form-input__btn :focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.footer-form-input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 }
 .footer-form-input__icon {
   margin-left: 10px;
