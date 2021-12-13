@@ -421,8 +421,7 @@ body {
   cursor: pointer;
 }
 
-.modal-textarea:focus,
-.modal-textarea:hover {
+.modal-textarea:focus, .modal-textarea:hover {
   border-color: #2196f3;
 }
 
