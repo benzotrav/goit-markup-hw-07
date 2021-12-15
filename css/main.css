@@ -120,7 +120,7 @@ body {
   font-size: 14px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-bottom: 32px;
-  padding-top: 32px;
+  margin-top: 32px;
 }
 
 .header-list__link:focus, .header-list__link:hover {
@@ -165,8 +165,8 @@ body {
   font-size: 14px;
   font-style: normal;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding-bottom: 32px;
-  padding-top: 32px;
+  margin-bottom: 32px;
+  margin-top: 32px;
 }
 
 .header-list2__link:focus, .header-list2__link:hover {
@@ -643,8 +643,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-icon-link:focus,
-.team-icon-link:hover {
+.team-icon-link:focus, .team-icon-link:hover {
   background-color: #2196f3;
   color: #ffffff;
 }
